@@ -6,5 +6,10 @@ public class ForDemo {
             System.out.println("Perulangan ke-" + i);
         }
 
+        for (int i = 5; i >= 1; i--) {
+            System.out.println("Hitung mundur: " + i);
+        }
+
+        System.out.println("Selesai!");
     }
 }
