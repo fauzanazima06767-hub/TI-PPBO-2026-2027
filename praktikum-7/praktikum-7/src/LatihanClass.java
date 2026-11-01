@@ -6,6 +6,7 @@ public class LatihanClass {
         m1.ipk = 9.9;
         m1.nim = "";
 
-        System.out.println(m1.ipk);
+        System.out.println("IPK: " + m1.ipk);
+        System.out.println("NIM: " + m1.nim);
     }
 }
