@@ -3,10 +3,14 @@ public class LatihanClass {
 
         Mahasiswa m1 = new Mahasiswa("Budi", "111", 3.5);
 
-        m1.ipk = 9.9;
-        m1.nim = "";
+        System.out.println("Nama: " + m1.getNama());
+        System.out.println("NIM: " + m1.getNim());
+        System.out.println("IPK awal: " + m1.getIpk());
 
-        System.out.println("IPK: " + m1.ipk);
-        System.out.println("NIM: " + m1.nim);
+        m1.setIpk(3.8); // valid
+        System.out.println("IPK sekarang: " + m1.getIpk());
+
+        m1.setIpk(9.9); // tidak valid, akan ditolak
+        System.out.println("IPK sekarang: " + m1.getIpk());
     }
 }
