@@ -1,3 +1,4 @@
+
 public class Staff extends Pegawai {
     private double tunjanganKinerja;
 
@@ -5,5 +6,9 @@ public class Staff extends Pegawai {
                  double tunjanganKinerja) {
         super(nama, nip, gajiPokok);
         this.tunjanganKinerja = tunjanganKinerja;
+    }
+
+    public double getTunjanganKinerja() {
+        return tunjanganKinerja;
     }
 }
